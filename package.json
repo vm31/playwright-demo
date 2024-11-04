@@ -1,0 +1,22 @@
+{
+  "name": "playwright-demo",
+  "version": "1.0.0",
+  "description": "npm init -y \r Install Playwright and TypeScript, along with Jest as a test runner\r npm install playwright @playwright/test typescript ts-jest jest --save-dev",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha -r ts-node/register src/tests/**/*.spec.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/chai": "^5.0.1",
+    "@types/mocha": "^10.0.9",
+    "@types/node": "^22.8.7",
+    "chai": "^5.1.2",
+    "mocha": "^10.8.2",
+    "playwright": "^1.48.2",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.6.3"
+  }
+}
